@@ -1,0 +1,180 @@
+h1{color: red}
+img{max-width: 100%
+	}
+span{text-align: justify;}
+.toanbo{max-width: 935px;
+		margin: auto;
+		}
+.anhbia{
+		max-width: 100%;
+		border: 1px solid white;
+		}
+.menu	{opacity: 1;
+		max-width: 100%;
+		border: 1px solid white;
+		}
+.menu:hover{opacity: 0.5}
+.noidungchinh{
+		max-width: 100%;
+		border: 1px solid #333333;
+		position: relative;
+		}
+		.danhmuc{
+				box-sizing: border-box;
+				width: 240px;
+				border: 2px solid #bd0103;
+				float: left;
+				font-family: sans-serif;
+				margin-top: 5px;
+				}
+				.danhmuc1{
+						opacity: 1;
+						box-sizing: border-box;
+						max-width: 100%;
+						border: 1px solid rgb(62, 62, 62);
+						font-family: sans-serif;
+						color: #fff;	
+						padding: 10px;
+						background-color: #333333;
+						}
+				.danhmuc1:hover{
+						opacity: 0.8;
+						}
+				.danhmuc0{
+						box-sizing: border-box;
+						max-width: 100%;
+						border: 1px solid rgb(62, 62, 62);
+						font-family: sans-serif;
+						color: #fff;	
+						padding: 10px;
+						background-color: #bd0103;
+						}
+
+		.topbanchay{
+				box-sizing: border-box;
+				max-width: 25%;
+				border: 3px solid #333333;
+				float: left;
+				font-family: sans-serif;
+				margin-top: 5px;
+				}
+.noidung{
+		max-width: 73%;
+		border: 2px solid #333333;
+		float: left;
+		margin-left: 250px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		}
+		.nhomsanpham{
+				box-sizing: border-box;
+				max-width: 100%;
+				border: 1px solid white;
+				font-family: sans-serif;
+				padding: 3px;
+				margin: 2px;
+				overflow: auto;
+				}
+						.tennhom{
+						color: #fff;
+						background-color: #333333;
+						box-sizing: border-box;
+						max-width: 35%;
+						border: 0.1px solid #333333;
+						font-family: sans-serif;
+						margin: 1px; 
+						padding-left: 10px;
+						}
+						.topbanchay .tennhom{max-width: 100%}
+						.top3cuanhom{
+						width: 100%;
+						box-sizing: border-box;
+						border: 1px solid #333333;
+						font-family: sans-serif;
+						display: block;			
+						float: left;
+						margin: 1px;
+						}
+						.sanpham{
+						box-sizing: border-box;
+						max-width: 32.5%;
+						border: 1px solid white;
+						font-family: sans-serif;
+						float: left;
+						margin: 1.5px;
+						}
+						.anhsanpham{
+						opacity: 1;
+						box-sizing: border-box;
+						max-width: 100%;
+						border: 1px solid white;
+						font-family: sans-serif;
+						margin: 2px;
+						}
+						.anhsanpham:hover{
+											opacity: 0.5;
+										}	
+						.giasanpham{
+						padding-left: 30%;
+						font-size: 100%;
+						opacity: 1;
+						box-sizing: border-box;
+						max-width: 100%;
+						border: 1px solid white;
+						border-top: 1px solid #333333;
+						
+						font-family: sans-serif;
+						text-align: justify;
+						margin: 2px;
+						}
+						.giasanpham:hover{
+											opacity: 0.5;
+										}
+.topbanchay > .nhomsanpham > .top3cuanhom > .sanpham {float: none; max-width: 100%}
+.danhmuc{position: absolute;
+		}
+.topbanchay{position: absolute;
+		top: 350px;
+		}
+#backtotop{	max-width: 4%;
+			position: fixed;
+			right: 0px;
+			bottom: 0px;
+			}
+span{font-size: 100%
+	padding-left: 25%;}
+.footer{
+		background-color: #333333;
+		height: 100px;	
+		margin-top: 30px;
+		max-width: 100%;
+		border: 1px solid #333333;
+		overflow: auto;
+		margin-top: 10px;
+		}
+.contact{ border: 1px solid	#333333; 
+		margin: auto;
+		overflow: auto;
+		max-width: 25%;
+		margin-top: 10px;
+		}
+.contact .social1{ border: 1px solid	#333333; 
+		max-width: 30px;
+		margin-top: 20px;
+		max-width: 30px;
+		margin: auto;
+		float: left;
+		margin-left: 80px;
+		}
+.contact .social2{ border: 1px solid	#333333; 
+		max-width: 30px;
+		margin-top: 10px;
+		max-width: 30px;
+		margin: auto;
+		float: left;
+		}
+.blog{	color: white;
+		border: 1px solid #333333;
+		margin: auto;
+		max-width: 192px;
+		}
