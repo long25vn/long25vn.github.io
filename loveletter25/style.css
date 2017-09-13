@@ -34,6 +34,7 @@ img {max-width: 100%;}
 			animation: temp;
 			animation-duration: 50s;
 			animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
 			}
 		.anh2{  
 			position: absolute;
@@ -42,6 +43,7 @@ img {max-width: 100%;}
 			animation-duration: 47s;
 			animation-delay: 3s;
 			animation-timing-function: ease-in-out;
+	
 			}
 		.anh3{  
 			position: absolute;
@@ -50,6 +52,7 @@ img {max-width: 100%;}
 			animation-duration: 44s;
 			animation-delay: 6s;
 			animation-timing-function: ease-in-out;
+		
 			}
 		.anh4{  
 			position: absolute;
@@ -58,6 +61,7 @@ img {max-width: 100%;}
 			animation-duration: 41s;
 			animation-delay: 9s;
 			animation-timing-function: ease-in-out;
+		
 			}
 		.anh5{  
 			position: absolute;
@@ -66,6 +70,7 @@ img {max-width: 100%;}
 			animation-duration: 38s;
 			animation-delay: 12s;
 			animation-timing-function: ease-in-out;
+			
 			}
 		.anh6{  
 			position: absolute;
@@ -74,6 +79,7 @@ img {max-width: 100%;}
 			animation-duration: 35s;
 			animation-delay: 15s;
 			animation-timing-function: ease-in-out;
+			
 			}
 		.anh7{  
 			position: absolute;
@@ -82,6 +88,7 @@ img {max-width: 100%;}
 			animation-duration: 32s;
 			animation-delay: 18s;
 			animation-timing-function: ease-in-out;
+			
 			}
 		.anh8{  
 			position: absolute;
@@ -90,6 +97,7 @@ img {max-width: 100%;}
 			animation-duration: 29s;
 			animation-delay: 21s;
 			animation-timing-function: ease-in-out;
+		
 			}
 		.anh9{  
 			position: absolute;
@@ -98,6 +106,7 @@ img {max-width: 100%;}
 			animation-duration: 26s;
 			animation-delay: 24s;
 			animation-timing-function: ease-in-out;
+			
 			}
 		.anh10{  
 			position: absolute;
@@ -106,6 +115,7 @@ img {max-width: 100%;}
 			animation-duration: 21s;
 			animation-delay: 29s;
 			animation-timing-function: ease-in-out;
+			
 			}
 		.anh11{  
 			position: absolute;
@@ -114,6 +124,7 @@ img {max-width: 100%;}
 			animation-duration: 16s;
 			animation-delay: 34s;
 			animation-timing-function: ease-in-out;
+		
 			}
 		.anh12{  
 			position: absolute;
@@ -122,6 +133,7 @@ img {max-width: 100%;}
 			animation-duration: 14s;
 			animation-delay: 36s;
 			animation-timing-function: ease-in-out;
+			
 			}
 
 
@@ -133,7 +145,7 @@ img {max-width: 100%;}
 				}
 @keyframes tempp{ 0% { opacity: 0; }
 				10%{opacity: 1;}
-				100%{opacity: 0.5;}
+				100%{opacity: 0;}
 				}
 
 
