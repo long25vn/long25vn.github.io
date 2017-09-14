@@ -7,7 +7,7 @@ body { background-color:#333; }
 	overflow: auto;
 	background: none;
 	font-family: Androgyne;
-	background-image: url(anh/2.png), url(anh/3.png), url(anh/1.png);
+	background-image: url(anh/2.PNG), url(anh/3.png), url(anh/1.png);
 	height: 100%;
 	left: 0;
 	position: absolute;
