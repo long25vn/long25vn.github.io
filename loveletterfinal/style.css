@@ -1,0 +1,191 @@
+h1{color: red;
+		}
+*{background-color: #c08134}
+img {max-width: 100%;}
+body { background-color:#333; }
+#snow{
+	overflow: auto;
+	background: none;
+	font-family: Androgyne;
+	background-image: url(anh/2.png), url(anh/3.png), url(anh/1.png);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+.toanbo{
+		max-width: 1000px;
+		border: 3px solid #834000;
+		margin: auto;
+		width: 1000px;
+		padding: 2px;
+		}
+.bia{		width: 1000px;
+			max-width: 100%;
+			max-height: 482px;
+			border: 2px solid #834000;
+			margin:auto;
+			float: left;
+			overflow: hidden;
+			box-sizing: border-box;
+			}
+.hang1{border: 2px solid #834000;
+		width: 1000px;
+		height: 700px;
+		margin: auto;
+		margin-top: 485px;
+		position: relative;
+		box-sizing: border-box;
+		overflow: hidden;
+		}
+
+
+		.anh1{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 50s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
+			}
+		.anh2{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 47s;
+			animation-delay: 3s;
+			animation-timing-function: ease-in-out;
+	
+			}
+		.anh3{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 44s;
+			animation-delay: 6s;
+			animation-timing-function: ease-in-out;
+		
+			}
+		.anh4{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 41s;
+			animation-delay: 9s;
+			animation-timing-function: ease-in-out;
+		
+			}
+		.anh5{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 38s;
+			animation-delay: 12s;
+			animation-timing-function: ease-in-out;
+			
+			}
+		.anh6{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 35s;
+			animation-delay: 15s;
+			animation-timing-function: ease-in-out;
+			
+			}
+		.anh7{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 32s;
+			animation-delay: 18s;
+			animation-timing-function: ease-in-out;
+			
+			}
+		.anh8{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 29s;
+			animation-delay: 21s;
+			animation-timing-function: ease-in-out;
+		
+			}
+		.anh9{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 26s;
+			animation-delay: 24s;
+			animation-timing-function: ease-in-out;
+			
+			}
+		.anh10{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 21s;
+			animation-delay: 29s;
+			animation-timing-function: ease-in-out;
+			
+			}
+		.anh11{  
+			position: absolute;
+			opacity: 0;
+			animation: temp;
+			animation-duration: 16s;
+			animation-delay: 34s;
+			animation-timing-function: ease-in-out;
+		
+			}
+		.anh12{  
+			position: absolute;
+			opacity: 0;
+			animation: tempp;
+			animation-duration: 14s;
+			animation-delay: 36s;
+			animation-timing-function: ease-in-out;
+			
+			}
+
+
+
+
+@keyframes temp{ 0% { opacity: 0; }
+				10%{opacity: 1;}
+				80%{opacity: 1;}
+				100%{opacity: 0;}
+				}
+@keyframes tempp{ 0% { opacity: 0; }
+				10%{opacity: 1;}
+				80%{opacity: 1;}
+				100%{opacity: 0;}
+				}
+
+
