@@ -80,6 +80,7 @@ span{color: grey;
 					#menu > ul > .menu4 > a {border: 1px solid #2e9a03;
 											font-family: all;
 											font-size: 1.25em;}
+					#id5{border: 1px solid #2e9a03;}						
 					#menu > ul > li > ul > .menu5 > a {
 											font-family: all;
 											font-size: 1em;
@@ -202,6 +203,7 @@ span{color: grey;
 						box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 						}
 						.anhsanpham{
+						padding: 42px;
 						opacity: 1;
 						float: left;
 						box-sizing: border-box;
