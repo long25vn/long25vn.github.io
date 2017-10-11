@@ -1,0 +1,431 @@
+
+body{
+	background-size: 100% ;
+	background-attachment: scroll;
+	margin: auto;
+	background-repeat: repeat;
+}
+img{max-width: 100%}
+span{text-shadow: 1px 1px black;
+	color: white;
+	font-size: 1em;}
+/*------------------------------------------------------------*/	
+.toantrang{ max-width: 100%;
+			min-width: 1000px;
+			margin: auto;  
+			box-sizing: border-box;
+			border: 1px solid none;
+			background-color: white;	
+			overflow: auto;
+			position: relative;}
+
+.header {width: 100%;
+		min-width: 1100px;
+		height: 110px;
+		border: 1px solid none;
+		background-color: #f6f6f6;}
+		.header1{width: 70%;
+				margin: auto;}
+.anhnen img{max-width: 100%}
+.anhnen{ border: 1px solid #f6f6f6;
+			box-sizing: border-box;
+			overflow: auto;
+			margin: auto;
+			width: 100%;
+			margin-bottom: 60px;
+			z-index: 1;
+			background-color: #f6f6f6;
+			}
+.anhnen1{width: 70%;
+		margin: auto;}
+
+			.logo{ 		width: 180px;
+						float: left;
+						box-sizing: border-box;
+						border: 1px solid none;
+						overflow: auto;
+						margin-right: 500px;
+						background-color: #f6f6f6;
+						z-index: 2;
+						position: absolute;}
+
+					ul{margin: 0;
+						padding: 0;}
+						ul li {list-style: none;}
+					#menu {		
+									float: right;
+									margin-top: 35px;
+									}
+					.menu3 {
+									font-family: all;
+									font-size: 1.25em;}
+					#menu > ul > .menu4 > a {border: 1px solid #2e9a03;
+											font-family: all;
+											font-size: 1.25em;
+											font-family: Lobster Two;}
+					#menu > ul > li > ul > .menu5 > a {
+											font-family: all;
+											font-size: 1em;
+											line-height: 1em;
+											padding: 15px 0px 15px 0px;
+											font-family: Lobster Two;
+											}
+					#menu > ul > li { float: left;
+									width: 120px; 
+									box-sizing: border-box;
+									}
+					#menu > ul > li > a {	text-decoration: none;
+										border: 1px	solid #f6f6f6;
+									    display: block;
+									    color: #2e9a03;
+									    text-align: center;
+									    text-decoration: none;
+									    padding: 10px;
+									    font-family: Lobster Two;
+												}
+					#menu > ul > li > a:hover {	
+												color: #f6f6f6;
+												background-color: #2e9a03;
+												}
+					#menu > ul > li ul {
+										display: none;
+										position: absolute;
+									}
+					#menu > ul > li:hover ul{border: 1px solid #2e9a03;
+										background-color: #f6f6f6;
+										margin-left: 0px;
+										color: white;
+										display: block;}
+
+					#menu > ul > li ul a{display: block;
+										text-decoration: none;
+										line-height: 45px;
+										border-bottom: 1px solid #2e9a03;
+										color: #2e9a03;	
+										font-family: Lobster Two;
+
+										}
+					#menu > ul > li ul a:hover {background-color: #2e9a03;
+												color: #f6f6f6;}					
+					#menu > ul > li  ul  li {	width: 118px;
+												text-align: center;
+												box-sizing: border-box;
+												font-family: Lobster Two;
+												}
+
+/*------------------------------------------------------------*/	
+.advice img{max-width: 100%}
+.advice{ 	max-width: 70%;
+			margin: auto;  
+			box-sizing: border-box;
+			border: 1px solid white;
+			overflow: hidden;
+			margin-bottom: 100px;}	
+
+.advicetrai{ max-width: 40%;
+			margin-top: 35px;
+			border-radius: 30px;  
+			overflow: auto;
+			float: left;
+			box-sizing: border-box;
+			border: 1px solid white;}
+.advicephai{ max-width: 50%;
+			float: left;
+			width: 59%;
+			margin-top: 35px;
+			margin-left: 50px;
+			box-sizing: border-box;
+			border: 1px solid white;}				
+			.anhadvice img{width: 300px;
+						height: 50px;
+						border-bottom: 2px solid #262626;
+						border-top: 2px solid #262626;					
+						}
+			.anhadvice{max-width: 305px;
+						margin: auto;
+						margin-top: 0px;
+						margin-bottom: 0px;}						
+
+/*------------------------------------------------------------*/	
+.noidung{border: 1px solid white;
+		box-sizing: border-box;
+		overflow: hidden;
+		float: left;
+		margin-top: 100px;
+		margin: auto;}
+
+.fruit img {width: 100%;}
+.fruit{border: 0.1px solid none;
+						box-sizing: border-box;
+						overflow: auto;
+						width: 100%;
+						min-width: 800px;
+						margin: auto;
+						background-color: #f6f6f6;	
+						}
+		.sanphamfruit{border: 0.1px solid none;
+						box-sizing: border-box;
+						overflow: auto;
+						width: 17.3%;
+						float: left;
+						border-radius: 3px;
+						margin: 10px;
+						 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+						}
+		.anhsanphamfruit{background-color: #f6f6f6;}	
+.fruit1{width: 70%;
+		margin: auto;}
+/*------------------------------------------------------------*/	
+.today img {width: 100%;}
+.today{border: 1px solid none;
+				box-sizing: border-box;
+				overflow: hidden;
+				width: 70%;
+				margin: auto;
+				margin-top: 60px;
+				margin-bottom: 120px;
+				}
+		.sanphamtoday{border: 1px solid none;
+				box-sizing: border-box;
+				overflow: hidden;
+				width: 48%;
+				float: left;
+				margin-right: 3px;
+				}	
+		.anhsanphamtoday{border: 1px solid none;
+				box-sizing: border-box;
+				overflow: hidden;
+				}
+		.anhtoday img{width: 400px;
+				height: 70px;
+				}
+		.anhtoday{max-width: 402px;
+				margin: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				border-bottom: 2px solid #262626;
+				border-top: 2px solid #262626;
+				}
+
+/*------------------------------------------------------------*/			
+.anhsanphamcontact img {width: 100%;
+					}
+.contactt{border: 1px solid none;
+				box-sizing: border-box;
+				overflow: hidden;
+				width: 100%;
+				margin: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				background-color: #f6f6f6;
+				}
+		.sanphamcontact{border: 1px solid #f6f6f6;
+				box-sizing: border-box;
+				overflow: hidden;
+				width: 24.7%;
+				float: left;
+				margin-right: 0px;
+				}	
+		.anhsanphamcontact{border: 1px solid none;
+				box-sizing: border-box;
+				overflow: hidden;
+				}
+		.anhcontact img{width: 300px;
+					height: 60px;
+					border-bottom: 2px solid #262626;
+					border-top: 2px solid #262626;
+					}
+		.anhcontact{max-width: 302px;
+				margin: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;}
+.contacttt{max-width: 70%; 
+			margin: auto;}
+
+
+.footer{
+		background-color: #333333;
+		height: 210px;	
+		width: 100%;
+		border: 1px solid none;
+		overflow: auto;
+		}
+.footer1{width: 70%;
+		margin: auto;}
+.footer2{ border: 1px solid	#333333; 
+		margin: auto;
+		overflow: auto;
+		width: 32%;
+		height: 180px;
+		margin-top: 10px;
+		float: left;
+		color: #f6f6f6;
+		padding-top: 10px;
+		font-family: all;
+		padding-left: 100px;
+		box-sizing: border-box;
+		}
+
+
+
+
+
+/*hieu ung hover*//*hieu ung*//*hieu ung*//*hieu ung*/
+/*hieu ung hover*//*hieu ung*//*hieu ung*//*hieu ung*/
+
+.advicetrai {
+    position: relative;
+}
+
+.anhsanphamtrai {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advicetrai:hover .anhsanphamtrai {
+  opacity: 0.3;
+}
+
+.advicetrai:hover .middle {
+  opacity: 1;
+}
+
+.text3 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 28px;
+  padding: 16px 32px;
+}
+
+/*hieu ung hover*//*hieu ung*//*hieu ung*//*hieu ung*/
+
+
+
+.advicephai {
+    position: relative;
+}
+
+.anhsanphamphai {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle4 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advicephai:hover .anhsanphamphai {
+  opacity: 0.3;
+}
+
+.advicephai:hover .middle4 {
+  opacity: 1;
+}
+
+.text4 {
+  background-color: #4caf50;
+  color: white;
+  font-size: 28px;
+  padding: 16px 32px;
+}
+/*hieu ung hover*//*hieu ung*//*hieu ung*//*hieu ung*/
+
+.sanphamfruit {
+    position: relative;
+}
+
+.anhsanphamfruit {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle5 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sanphamfruit:hover .anhsanphamfruit {
+  opacity: 0.3;
+}
+
+.sanphamfruit:hover .middle5 {
+  opacity: 1;
+}
+
+.text {
+text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+
+/*hieu ung hover*//*hieu ung*//*hieu ung*//*hieu ung*/
+.sanphamcontact{position: relative;
+			transition: transform 0.5s;}
+.anhsanphamcontact {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.temp2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(46, 154, 3, 0.44);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.sanphamcontact:hover .temp2 {
+  	height: 100%;
+}
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+@font-face {
+    font-family: robin;
+    src: url(fonts/FontAwesome.otf);
+}
+p{
+	font-family: Varela Round;
+	font-size: 0.8em;
+}
