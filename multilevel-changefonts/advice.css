@@ -478,3 +478,9 @@ text-align: center;
   position: absolute;
   overflow: hidden;
 }
+
+
+p{
+	font-family: Open Sans;
+	font-size: 0.8em;
+}
