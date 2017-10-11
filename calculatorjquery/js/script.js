@@ -17,10 +17,14 @@ function press (str)
 }
 
 function pressmath(str)
-{	if (ham != "") {mangrong.unshift(ham.valueOf());}
+{	
+	if (str=="*") {$('#display').text("x");}
+	else  {$('#display').text(str);}
+	if (ham != "") {mangrong.unshift(ham.valueOf());}
 	mangrong.unshift(str);
 	ham = [];
 			tempmath=mangrong[2].toString();
+
 			if (tempmath=="+")
 			{	tempketqua = Number(mangrong[3]) + Number(mangrong[1]);
 				$('#display').text(tempketqua.toString().slice(0,8));
