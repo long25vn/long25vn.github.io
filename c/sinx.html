@@ -55,39 +55,39 @@ body { color: #000000; background-color: #FFFFFF; }
 --></style></head>
 <body>
 <pre>
-<code><span style="font: 10pt Courier New;"><span class="body"> 1 </span><span class="style9">#include &lt;stdio.h&gt;</span>
-<span class="body"> 2  </span><span class="style9">#include &lt;math.h&gt;</span>
-<span class="body"> 3  </span><span class="style5">float </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style5">float </span><span class="style11">x</span><span class="style10">)</span>
-<span class="body"> 4  </span><span class="style10">{</span>
-<span class="body"> 5     </span><span class="style5">if</span><span class="style10">(</span><span class="style11">x </span><span class="style10">&lt;= </span><span class="style4">1</span><span class="style10">)</span>
-<span class="body"> 6     </span><span class="style10">{</span>
-<span class="body"> 7        </span><span class="style5">return </span><span class="style4">1</span><span class="style10">;</span>
-<span class="body"> 8     </span><span class="style10">}</span>
-<span class="body"> 9     </span><span class="style5">return </span><span class="style11">x </span><span class="style10">* </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style11">x </span><span class="style10">- </span><span class="style4">1</span><span class="style10">);</span>
-<span class="body">10  </span><span class="style10">}</span>
-<span class="body">11  </span><span class="style5">float </span><span class="style11">luythua</span><span class="style10">(</span><span class="style5">float </span><span class="style11">a</span><span class="style10">, </span><span class="style5">float </span><span class="style11">b</span><span class="style10">)</span>
-<span class="body">12  </span><span class="style10">{   </span><span class="style5">if  </span><span class="style10">(</span><span class="style11">b</span><span class="style10">==</span><span class="style4">0</span><span class="style10">) </span><span class="style5">return </span><span class="style4">1</span><span class="style10">;</span>
-<span class="body">13      </span><span class="style5">if </span><span class="style10">(</span><span class="style11">b</span><span class="style10">==</span><span class="style4">1</span><span class="style10">) </span><span class="style5">return </span><span class="style11">a</span><span class="style10">;</span>
-<span class="body">14  </span>
-<span class="body">15      </span><span class="style5">return </span><span class="style11">a</span><span class="style10">*</span><span class="style11">luythua</span><span class="style10">(</span><span class="style11">a</span><span class="style10">,</span><span class="style11">b</span><span class="style10">-</span><span class="style4">1</span><span class="style10">);</span>
-<span class="body">16  </span><span class="style10">}</span>
-<span class="body">17  </span><span class="style5">float </span><span class="style11">sinx</span><span class="style10">(</span><span class="style5">float </span><span class="style11">x</span><span class="style10">, </span><span class="style5">float </span><span class="style11">n</span><span class="style10">)</span>
-<span class="body">18  </span><span class="style10">{   </span><span class="style5">float </span><span class="style11">result</span><span class="style10">=</span><span class="style4">0</span><span class="style10">;</span>
-<span class="body">19      </span><span class="style11">x </span><span class="style10">= </span><span class="style11">x </span><span class="style10">* (</span><span class="style4">3.1415926 </span><span class="style10">/ </span><span class="style4">180.0</span><span class="style10">);</span>
-<span class="body">20      </span><span class="style5">for</span><span class="style10">(</span><span class="style5">int </span><span class="style11">i</span><span class="style10">=</span><span class="style4">0</span><span class="style10">;</span><span class="style11">i</span><span class="style10">&lt;=</span><span class="style11">n</span><span class="style10">;</span><span class="style11">i</span><span class="style10">++)</span>
-<span class="body">21      </span><span class="style10">{</span>
-<span class="body">22          </span><span class="style5">float </span><span class="style11">z </span><span class="style10">= (</span><span class="style4">2</span><span class="style10">*</span><span class="style11">i</span><span class="style10">)+</span><span class="style4">1</span><span class="style10">;</span>
-<span class="body">23          </span><span class="style11">result</span><span class="style10">=</span><span class="style11">result</span><span class="style10">+ (</span><span class="style11">luythua</span><span class="style10">(-</span><span class="style4">1</span><span class="style10">,</span><span class="style11">i</span><span class="style10">)*(</span><span class="style11">luythua</span><span class="style10">(</span><span class="style11">x</span><span class="style10">,</span><span class="style11">z</span><span class="style10">) / </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style11">z</span><span class="style10">)));</span>
-<span class="body">24      </span><span class="style10">}</span>
-<span class="body">25      </span><span class="style5">return </span><span class="style11">result</span><span class="style10">;</span>
-<span class="body">26  </span><span class="style10">}</span>
-<span class="body">27  </span><span class="style11">main</span><span class="style10">()</span>
-<span class="body">28  </span><span class="style10">{</span>
-<span class="body">29      </span><span class="style5">float </span><span class="style11">x</span><span class="style10">;</span>
-<span class="body">30      </span><span class="style5">float </span><span class="style11">n </span><span class="style10">= </span><span class="style4">1000</span><span class="style10">;</span>
-<span class="body">31      </span><span class="style11">scanf</span><span class="style10">(</span><span class="style6">"%f"</span><span class="style10">,&amp;</span><span class="style11">x</span><span class="style10">);</span>
-<span class="body">32      </span><span class="style11">printf</span><span class="style10">(</span><span class="style6">"%f"</span><span class="style10">,</span><span class="style11">sinx</span><span class="style10">(</span><span class="style11">x</span><span class="style10">,</span><span class="style11">n</span><span class="style10">));</span>
-<span class="body">33  </span><span class="style10">}</span></span>
+<code><span style="font: 10pt Courier New;"><span class="style9">#include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+</span><span class="style5">float </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style5">float </span><span class="style11">x</span><span class="style10">)
+{
+   </span><span class="style5">if</span><span class="style10">(</span><span class="style11">x </span><span class="style10">&lt;= </span><span class="style4">1</span><span class="style10">)
+   {
+      </span><span class="style5">return </span><span class="style4">1</span><span class="style10">;
+   }
+   </span><span class="style5">return </span><span class="style11">x </span><span class="style10">* </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style11">x </span><span class="style10">- </span><span class="style4">1</span><span class="style10">);
+}
+</span><span class="style5">float </span><span class="style11">luythua</span><span class="style10">(</span><span class="style5">float </span><span class="style11">a</span><span class="style10">, </span><span class="style5">float </span><span class="style11">b</span><span class="style10">)
+{   </span><span class="style5">if  </span><span class="style10">(</span><span class="style11">b</span><span class="style10">==</span><span class="style4">0</span><span class="style10">) </span><span class="style5">return </span><span class="style4">1</span><span class="style10">;
+    </span><span class="style5">if </span><span class="style10">(</span><span class="style11">b</span><span class="style10">==</span><span class="style4">1</span><span class="style10">) </span><span class="style5">return </span><span class="style11">a</span><span class="style10">;
+
+    </span><span class="style5">return </span><span class="style11">a</span><span class="style10">*</span><span class="style11">luythua</span><span class="style10">(</span><span class="style11">a</span><span class="style10">,</span><span class="style11">b</span><span class="style10">-</span><span class="style4">1</span><span class="style10">);
+}
+</span><span class="style5">float </span><span class="style11">sinx</span><span class="style10">(</span><span class="style5">float </span><span class="style11">x</span><span class="style10">, </span><span class="style5">float </span><span class="style11">n</span><span class="style10">)
+{   </span><span class="style5">float </span><span class="style11">result</span><span class="style10">=</span><span class="style4">0</span><span class="style10">;
+    </span><span class="style11">x </span><span class="style10">= </span><span class="style11">x </span><span class="style10">* (</span><span class="style4">3.1415926 </span><span class="style10">/ </span><span class="style4">180.0</span><span class="style10">);
+    </span><span class="style5">for</span><span class="style10">(</span><span class="style5">int </span><span class="style11">i</span><span class="style10">=</span><span class="style4">0</span><span class="style10">;</span><span class="style11">i</span><span class="style10">&lt;=</span><span class="style11">n</span><span class="style10">;</span><span class="style11">i</span><span class="style10">++)
+    {
+        </span><span class="style5">float </span><span class="style11">z </span><span class="style10">= (</span><span class="style4">2</span><span class="style10">*</span><span class="style11">i</span><span class="style10">)+</span><span class="style4">1</span><span class="style10">;
+        </span><span class="style11">result</span><span class="style10">=</span><span class="style11">result</span><span class="style10">+ (</span><span class="style11">luythua</span><span class="style10">(-</span><span class="style4">1</span><span class="style10">,</span><span class="style11">i</span><span class="style10">)*(</span><span class="style11">luythua</span><span class="style10">(</span><span class="style11">x</span><span class="style10">,</span><span class="style11">z</span><span class="style10">) / </span><span class="style11">giaithua</span><span class="style10">(</span><span class="style11">z</span><span class="style10">)));
+    }
+    </span><span class="style5">return </span><span class="style11">result</span><span class="style10">;
+}
+</span><span class="style11">main</span><span class="style10">()
+{
+    </span><span class="style5">float </span><span class="style11">x</span><span class="style10">;
+    </span><span class="style5">float </span><span class="style11">n </span><span class="style10">= </span><span class="style4">1000</span><span class="style10">;
+    </span><span class="style11">scanf</span><span class="style10">(</span><span class="style6">"%f"</span><span class="style10">,&amp;</span><span class="style11">x</span><span class="style10">);
+    </span><span class="style11">printf</span><span class="style10">(</span><span class="style6">"%f"</span><span class="style10">,</span><span class="style11">sinx</span><span class="style10">(</span><span class="style11">x</span><span class="style10">,</span><span class="style11">n</span><span class="style10">));
+}</span></span>
 </code></pre>
 </body>
 </html>
