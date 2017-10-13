@@ -1,0 +1,114 @@
+h1{color: red}
+body	{
+	background-color: rgb(238, 238, 238);
+	  background-image: url("06.jpg");
+	  background-size: 1366px 768px;
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+button {
+	background-color: rgb(238, 238, 238);
+	width: 50px;
+	height: 30px;
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+						box-sizing: border-box;
+						border: 1px solid rgba(97, 101, 104, 0.32);
+						font-family: sans-serif;
+						margin: 4px;
+						margin-bottom: 7px;
+}
+
+button{
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+}
+#name{ border:1px solid none;
+margin: 5px; 
+text-align: left;
+text-indent: 5%;}
+#hienthi{
+		width: 92%;
+		border:1px solid none;
+		height: 50px;
+		background-color: #333333;
+		border-radius: 5px;
+		color: #f6f6f6;
+		font-size: 2.0em;
+		text-align: right;
+		padding-right: 10px;
+		box-sizing: border-box; 
+		margin: auto;
+		margin-bottom: 10px;
+		overflow: hidden;
+}
+#khung{
+	width: 280px;
+	height: 320px;
+						box-sizing: border-box;
+						border: 1px solid none;
+						font-family: sans-serif;
+						box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.32);
+						padding: 7px;
+						border-radius: 7px;
+						 margin: auto;
+						 background-color: rgb(238, 238, 238);
+						 position: absolute;
+						 top: 280px;
+						 left: 370px;
+		}
+#toantrang{
+	padding: 20px;
+	width: 1326px;
+	height: 680px;
+	overflow: auto;
+    color: #333333;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+						box-sizing: border-box;
+						border: 1px solid none;
+						font-family: sans-serif;
+						box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+						margin: auto;
+						position: relative;
+}
+
+.phimso {
+	margin-left: 5px;
+		border: 1px solid rgb(238, 238, 238);
+		box-sizing: border-box;
+		width: 72%;
+		float: left;
+}
+
+
+button:active{
+		background-color: #333333; 
+}
+button:focus{
+	outline: none;
+}
+
+.pheptoan {
+	float: left;
+		border: 1px solid rgb(238, 238, 238)	;
+		box-sizing: border-box;
+		width: 25%;
+
+}
+.lenh{border:1px solid rgb(238, 238, 238);
+	margin-left: 5px;
+}
+
+
+#id1{
+	background-color: #F44336;
+	color: rgb(238, 238, 238); }
