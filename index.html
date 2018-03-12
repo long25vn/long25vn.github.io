@@ -1,29 +1,36 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<style type="text/css">
 		body {
-		    background-image: url("back.jpg");
+		    background-image: url("vietnamese-flag.jpg");
 		    background-repeat: no-repeat, repeat;
-		    background-color: #cccccc;
 		    background-size: 100%;
+		    color: white;
 			}
-		.video{
-			margin: 20% 0 0 7%;
-			border: 2px solid #f3d117;
-			width: 30%;
-			padding: 20px;
-			border-radius: 10px;
+		.mp3{
+			opacity: 0.2;
 		}
-
+		.mp3:hover{
+			opacity: 1;
+		}
+		.text {
+		    opacity: 0;
+		    font-family: monospace;
+		    font-size: 24px;
+		}
+		.text:hover {
+		    opacity: 1;
+		}
 	</style>
 </head>
 <body>
-<div class="video">
-	<video width="100%"  controls>
-  		<source src="QuocCa.mp4" type="video/mp4">
-  		<source src="QuocCa.ogg" type="video/ogg">
-	</video>
+<div class="mp3">
+	<audio controls>
+  		<source src="QuocCa.mp3" type="audio/mpeg">
+	</audio>
 </div>
+<div class="text"><H1>F11 to Full Screen</H1></div>
 </body>
 </html>
